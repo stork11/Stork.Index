@@ -1,0 +1,27 @@
+node_modules
+.idea/
+dist/
+.config.yaml
+*/config.yaml
+*/.cache
+build/static/win/clash/config.yaml
+build/static/mac/clash/config.yaml
+build/static/win/clash/.cache
+build/static/mac/clash/.cache
+build/static/win/clash/cache.db
+build/static/win/clash/Pluto-service.wrapper.log
+build/static/mac/clash/cache.db
+
+#Beyond Compare
+.orig
+*.orig
+
+.cache
+package-lock.json
+
+# Mac pkg 打包  python ./build/static/mac/quickpkg/quickpkg ./dist/mac/Pluto.app
+.pkg
+
+log.txt
+
+views/anim/*
